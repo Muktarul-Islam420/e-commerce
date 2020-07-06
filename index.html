@@ -3,10 +3,343 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link class="img-pulid" rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>PANDA</title>
 </head>
+
+
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="site logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#watch">watch</a>
+                <a class="nav-item nav-link" href="#Shoes">Shoes</a>
+                <a class="nav-item nav-link" href="#Backpack">Backpack</a>
+                <a class="nav-item nav-link " href="#ContactUs">ContactUs</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide orange-bg" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Mega 42" LED TV</h1>
+                        <p>Mega 42" LED TV is the most populer TV in world of Mega TV series</p>
+                        <h1 class="price">$1200</h1>
+                        <button class="buy-now-button">Shope Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="images/banner-images/tv.png" class="d-block w-100" alt="picture1">
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row  align-items-center">
+                    <div class="col-md-7">
+                        <h1>SONY Headphone</h1>
+                        <p>The most uses headphone,Most ordered product in <img src="logo.png" alt=""></p>
+                        <h1 class="price">$300</h1>
+                        <button class="buy-now-button">Shope Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="picture2">
+                    </div>
+                </div>
+               
+              </div>
+              <div class="carousel-item">
+                <div class="row  align-items-center">
+                    <div class="col-md-7">
+                        <h1>SONY X-box</h1>
+                        <p>SONY X-box most selling product in <img src="logo.png" alt=""></p>
+                        <h1 class="price">$800</h1>
+                        <button class="buy-now-button">Shope Now</button>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/banner-images/xbox.png" class="d-block w-100" alt="picture3">
+                    </div>
+                </div>
+               
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+
+    <marquee behavior="alternate"amaunt="20"  direction="up"> 
+    <div class="container cetagories">
+        <h3>All cetagories</h3>
+        <div class="row">
+            <div class="col-md-4">
+               <div class="cat1 d-flex justify-content-between align-items-center">
+                <h1>Watch</h1>
+                <img src="images/categories/watch.png" alt="">
+               </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat2 d-flex justify-content-between align-items-center">
+                    <h1>Bag</h1>
+                <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cat3 d-flex justify-content-between align-items-center">
+                    <h1>Shoes</h1>
+                <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</marquee>
+
+
+<div class="container watch" id="watch">
+    <h3>Watch cetagories</h3>
+    <div class="card-deck">
+        <div class="card">
+          <img src="images/watch/watch1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rolex ladies watch</h5>
+            <h5>$180</h5>
+            <p class="card-text">Watch face : Round face.
+              Machine type: Battery (Quartz)
+              Face diameter: 26mm.
+              Water resistant: 3 ATM.
+              Lock type: Lock setting.
+              Gender: Female.
+              Material of glass surface: Hard glass.
+              Brand Name :DhakaMall.24
+            </p> 
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Shope Now>></button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/watch/watch2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rolex x-man Watch</h5>
+            <h5>$140</h5>
+            <p class="card-text">Product Type: Analog Watch
+              Main Material: Artificial Leather
+              Case Material: Stainless Steel
+              Case Shape: Round
+              Band Size: Men's Standard
+              Case Thickness: Standard
+              Gender: Men
+              </p>
+            
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Shope Now>></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/watch/watch3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rolex scikoPro watch</h5>
+            <h5>$250</h5>
+            <p class="card-text">Brand: Naviforce.
+              Model: NF-9149B
+              Warranty: 1 Year International warranty
+              Water Resistant: 30m
+              Movement: Japan Quartz
+              Dial Size: 45mm
+              Function: Day, Date, Chronograph.
+              Watch Band: Stainless steel
+              NB: Authorized Distributor in Bangladesh</p>
+            
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Shope Now>></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container shoes" id="Shoes">
+        <h3>Shoes cetagories</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h5>$120</h5>
+                <p class="card-text">Product Type: Sneakers
+                  Color:YellowBlack
+                  Country of Origin: China
+                  Gender: Men
+                  Out sole Material: Pvc.
+                  Lining material- Fabric,
+                  Uper material - Fabric.
+                  Insole material- Eva+mesh.</p>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button">Shope Now>></button>
+              </div>
+              </div>
+            <div class="card">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <h5>$320</h5>
+                <p class="card-text">Product Type: Sneakers
+                  Color: Black Red.
+                  Country of Origin: China
+                  Gender: Men
+                  Out sole Material: Pvc.
+                  Lining material- Fabric,
+                  Uper material - Fabric.
+                  Insole material- Eva+mesh.</p>
+              </div>
+                <div class="card-footer">
+                  <button class="buy-now-button">Shope Now>></button>
+                </div>
+              </div>
+  
+            <div class="card">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red air max</h5>
+                <h5>$350</h5>
+                <p class="card-text">High Quality Fashionable Sneakers
+                  Office Outdoor Shoes
+                  Flat Comfortable Lightweight
+                  Sports Breathable
+                  Trendy Stylish Traineer
+                  Hardwork Shoes
+                  Material : Fabrics
+                  Sole material: Rubber
+                  </p>
+              </div>
+                <div class="card-footer">
+                  <button class="buy-now-button">Shope Now>></button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
     
+
+    <div class="container Bagpack" id="Backpack">
+        <h3>Bagpack cetagories</h3>
+        <div class="card-deck">
+            <div class="card">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">OGIO red bag</h5>
+                <h5>$120</h5>
+                <p class="card-text">The size of the Backpack is Small/Medium. 14 liter.
+                  Handy for lightweight & Casual use.
+                  Feels Comfortable for 1day journey.
+                  Smart & Elegant design.
+                  Water Resistant Fabrics.
+                  Full Air Meshed for shoulder & Back support.
+                  The air mesh will keep airflow on the backbone and Give Comfort to Shoulder.
+                  Reflective Stripe on Shoulder Patch for when Driving on Road.
+                  The Reflective Stripe will glow when any flashlight is fired on it.
+                  Long-lasting and Washable fabrics.
+                  Notebook Compatible.
+                  Size - 13*8*5
+                </p> 
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button">Shope Now>></button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BURTON cyan bag</h5>
+                <h5>$140</h5>
+                <p class="card-text">Material: Polyester Fabric
+                  Height: 15inch
+                  Width: 12 inch
+                  Number of Compartment: 1
+                  1 Front Kit pocket
+                  2 side Bottle pocket
+                  Shoulder Belt: Adjustable
+                  Best gift for your loved one.
+                  Fine workmanship perfect quality stylish appearance.
+                  Fully use of your space make you more tidy and beautiful.
+                  Use the high quality material more durable and practical.
+                  Perfect for organizing your various things.</p> 
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button">Shope Now>></button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h5>$220</h5>
+                <p class="card-text">Material: Polyester Fabric
+                  Height: 15inch
+                  Width: 12 inch
+                  Number of Compartment: 1
+                  1 Front Kit pocket
+                  2 side Bottle pocket
+                  Shoulder Belt: Adjustable
+                  Best gift for your loved one.
+                  Fine workmanship perfect quality stylish appearance.
+                  Fully use of your space make you more tidy and beautiful.
+                  Use the high quality material more durable and practical.
+                  Perfect for organizing your various things.</p>
+                
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button">Shope Now>></button>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <div class="container orange-bg d-flex align-items-center justify-content-center" id="ContactUs">
+        <div>
+        <h3>LET'S STAY IN TOUCH</h3>
+        <h6>Get updates on sales,special and more</h6>
+        <input class="form-control" type="email" name="" placeholder="panda@gmail.com" id="">
+        <button class="buy-now-button">SUBMIT</button>
+        </div>
+    </div>
+    <footer>
+      <small class="d-flex align-items-center justify-content-center">©2020 PANDA comerce.All right reserved.Muktarul khan,Bangladesh</small>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>
